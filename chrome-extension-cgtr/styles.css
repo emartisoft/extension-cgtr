@@ -2,6 +2,13 @@
  width: 200px;
 }
 
+#museropts
+{
+	margin: 0;
+	list-style: none;
+	padding-left: 1ex;
+    width: 300px;}
+
 #mlogo {
 margin-top: 16px;
 	background: url("https://amh451.github.io/streetfighters.gif") top no-repeat;
