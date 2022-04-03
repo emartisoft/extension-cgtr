@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Modify CGTR",
+  "version": "1.0",
+  "description": "Modify CGTR",
+  "author": "emarti, Murat Özdemir",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["*://www.commodore.gen.tr/forum/*"]
+  }]
+}
