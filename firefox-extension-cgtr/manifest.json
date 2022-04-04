@@ -1,0 +1,18 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dtemarti@gmail.com",
+      "strict_min_version": "52.0"
+    }
+  },
+  "manifest_version": 2,
+  "name": "Modify CGTR",
+  "version": "1.2",
+  "description": "Modify CGTR",
+  "author": "emarti, Murat Özdemir",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["*://www.commodore.gen.tr/forum/*"]
+  }]
+}

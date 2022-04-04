@@ -1,0 +1,29 @@
+#mrhino {
+ width: 200px;
+}
+
+#museropts
+{
+	margin: 0;
+	list-style: none;
+	padding-left: 1ex;
+    width: 300px;}
+
+#mlogo {
+margin-top: 16px;
+	background: url("https://amh451.github.io/streetfighters.gif") top no-repeat;
+    display: block;
+    height: 1000px;
+    
+    }
+
+div.mprofile_info {
+  margin-left: 128px;
+  width: 450;
+}
+
+td.mtitlebg, td.mtitlebg2{
+	background: #cccccc;
+	padding: 10px 15px 10px 50px;
+	font-size: 11pt;
+}
