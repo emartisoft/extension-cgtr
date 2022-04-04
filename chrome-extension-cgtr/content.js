@@ -26,5 +26,7 @@ document.body.innerHTML = document.body.innerHTML.replace('http://www.commodore.
 document.body.innerHTML = document.body.innerHTML.replace('http://www.commodore.gen.tr/images/_banner/neogeo_arcade.jpg', '');
 document.body.innerHTML = document.body.innerHTML.replace('http://www.commodore.gen.tr/images/_banner/cgtr_oyun.png', '');
 
+document.body.innerHTML = document.body.innerHTML.replace('Dokumantasyon', 'Dökümantasyon');
+
 var mdemo = document.getElementById('demo');
 if(mdemo) mdemo.remove();
