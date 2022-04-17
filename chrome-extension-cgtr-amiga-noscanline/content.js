@@ -63,7 +63,8 @@ const changes = [
 '<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish//print.gif" alt="Yazdır" border="0">','  Yazdır  ',
 '<span id="logo"> </span>','<span class="text">commodore.gen.tr</span>',
 '<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/modify.gif" alt="Mesajı değiştir" align="middle">','  Düzenle  ',
-'<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/delete.gif" alt="Mesajı Sil" align="middle">','  Sil  '
+'<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/delete.gif" alt="Mesajı Sil" align="middle">','  Sil  ',
+'<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/admin_rem.gif" alt="Konuyu Sil" border="0">', '  Konuyu Sil  '
 ];
 
 for (let i = 0; i < changes.length; i+=2) {
