@@ -1,0 +1,7 @@
+Chrome menüsünden Ayarlar/Uzantılar kısmına gelin
+Geliştirici modunu etkinleştirin
+Paketlenmiş öğe yükle ile bu dosyanın olduğu klasörü seçin
+CGTR sitesine tekrar girin.
+
+İyi eğlenceler
+emarti, Murat Özdemir
