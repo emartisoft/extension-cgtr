@@ -16,6 +16,6 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["*://www.commodore.gen.tr/forum/*"]
+    "matches": ["*://www.commodore.gen.tr/*"]
   }]
 }
