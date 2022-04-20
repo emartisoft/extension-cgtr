@@ -26,7 +26,7 @@ const changes = [
 'http://www.commodore.gen.tr/images/_banner/neogeo_arcade.jpg', '',
 'http://www.commodore.gen.tr/images/_banner/cgtr_oyun.png', '',
 'Dokumantasyon', 'Dökümantasyon',
-'<a href="http://www.simplemachines.org/"','<a href="https://github.com/emartisoft/extension-cgtr" target="_blank">Redesigned with extension by emarti, Murat Özdemir - Ver 1.4 © Apr 2022</a><br><a href="http://www.simplemachines.org/"',
+'<a href="http://www.simplemachines.org/"','<a href="https://github.com/emartisoft/extension-cgtr" target="_blank">Redesigned with extension by emarti, Murat Özdemir</a><br><a href="http://www.simplemachines.org/"',
 'Gönderen','Gön',
 '<a href="https://www.commodore.gen.tr/forum/index.php?action=recent"><img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/post/xx.gif" alt="Son Mesajlar"></a>', '',
 'class="windowbg" width="20"','class="windowbg2" width="0"',
@@ -64,7 +64,12 @@ const changes = [
 '<span id="logo"> </span>','<span class="text">commodore.gen.tr</span>',
 '<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/modify.gif" alt="Mesajı değiştir" align="middle">','  Düzenle  ',
 '<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/delete.gif" alt="Mesajı Sil" align="middle">','  Sil  ',
-'<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/admin_rem.gif" alt="Konuyu Sil" border="0">', '  Konuyu Sil  '
+'<img src="https://www.commodore.gen.tr/forum/Themes/rt_smf_versatility/images/turkish/admin_rem.gif" alt="Konuyu Sil" border="0">', '  Konuyu Sil  ',
+'showcase','mshowcase',
+'moduletable','mmoduletable',
+'mmoduletable center','moduletable center',
+'class="avatar','class="mavatar',
+'Yeni mesajın var,','Yeni mesajın var'
 ];
 
 for (let i = 0; i < changes.length; i+=2) {
@@ -73,3 +78,4 @@ for (let i = 0; i < changes.length; i+=2) {
 
 var mdemo = document.getElementById('demo');
 if(mdemo) mdemo.remove();
+
