@@ -3,7 +3,7 @@
 {
 	margin: 0;
 	list-style: none;
-    width: 300px;}
+    width: 400px;}
     
 input[type="text"]
 {
@@ -21,11 +21,20 @@ input[type=button], input[type=submit], input[type=reset], input[type=file] {
 option, select, textarea { font-family: AmigaTopazTurkish; font-size:12px; border-color: #000;}
 
 div.mprofile_info {
-    margin-left: 128px;
+    margin-left: 148px;
     width: 450;
     font-family: AmigaTopazTurkish;
     font-size: 12px;
     padding-top: 20px;
+}
+
+#mshowcase {
+	background: #ccc url(../images/default/showcase-bg.png) repeat-x;
+}
+
+div.mavatar {
+  float: left;
+	margin-left: 32px;
 }
 
 td.mtitlebg, td.mtitlebg2{
@@ -145,7 +154,7 @@ body {
 }
 
 .text {
-    padding: 32px 0px 0px 0px;
+    padding: 48px 0px 0px 0px;
     position: absolute;
     top: 50%; 
     right: 50%;
@@ -225,4 +234,32 @@ body {
     background-position: 0 50%;
   }
 }
+
+/* mmoduletable */
+div.mmoduletable h3,
+.contentheading,
+.componentheading {
+	font-size: 130%;
+	color: #222;
+}
+
+div.mmoduletable {
+	margin-bottom: 10px;
+    text-align: left;
+}
+
+td.left div.mmoduletable,
+td.right div.mmoduletable  {
+	margin-bottom: 15px;
+}
+
+div.mmoduletable ul {
+	margin: 5px 0;
+	padding: 0 0;
+}
+
+div.mmoduletable ul li {
+	padding-bottom: 3px;
+}
+
 
