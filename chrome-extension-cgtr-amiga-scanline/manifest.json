@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Modify CGTR Amiga NoScanline",
+  "name": "Modify CGTR Amiga Scanline",
   "version": "1.4.1",
   "description": "Modify CGTR Amiga Scanline",
   "author": "emarti, Murat Özdemir",
